@@ -1,0 +1,33 @@
+.App {
+  border: 1px solid #777;
+  width: 500px;
+  margin: 200px auto;
+  padding: 25px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App h2 {
+  margin: 10px 0 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.container ul li {
+  width: 85%;
+  overflow-wrap: break-word;
+  list-style-type: "📌";
+  cursor: pointer;
+  font-size: 18px;
+}
+.done {
+  text-decoration: line-through;
+}
+.container ul .item span {
+  cursor: pointer;
+}
+.container ul .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
